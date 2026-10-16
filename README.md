@@ -2,15 +2,6 @@
 
 AirScope searches for a city and displays pollutant readings reported by nearby monitoring stations. It can estimate a U.S.-scale AQI from the latest PM2.5 or PM10 reading when that data is available.
 
-## Run locally on Windows
-
-1. Install Python 3.
-2. Create a free OpenAQ account and get an API key: <https://explore.openaq.org/register>
-3. Run `setup-key.ps1` and paste the key when prompted. It is stored in your Windows AppData folder, outside this project.
-4. Run `open-aqi-site.bat`. The dashboard opens at <http://127.0.0.1:8123/>.
-5. Keep the server window open while using the dashboard. Press `Ctrl+C` there to stop it.
-
-The OpenAQ key is never placed in the browser code. Do not commit or share your API key.
 
 ## About the AQI number
 

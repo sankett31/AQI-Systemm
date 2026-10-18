@@ -158,4 +158,4 @@ if __name__ == "__main__":
     print(f"AirScope station dashboard: http://127.0.0.1:{PORT}/")
     print("Press Ctrl+C here to stop the server.")
     threading.Timer(1.0, lambda: webbrowser.open(f"http://127.0.0.1:{PORT}/")).start()
-    ThreadingHTTPServer(("127.0.0.1", PORT), Handler).serve_forever()
+    ThreadingHTTPServer(("0.0.0.0", PORT), Handler).serve_forever()
